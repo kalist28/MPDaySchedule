@@ -98,7 +98,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.kalistdev.mp.dayshedule"
+    namespace = "io.kalistdev.mp.daySchedule"
     compileSdk = 34
     defaultConfig {
         minSdk = 21

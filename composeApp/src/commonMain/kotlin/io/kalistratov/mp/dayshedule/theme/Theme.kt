@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule.theme
+package io.kalistratov.mp.daySchedule.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

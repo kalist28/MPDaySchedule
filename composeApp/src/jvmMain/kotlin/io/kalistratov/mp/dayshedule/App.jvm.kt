@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule
+package io.kalistratov.mp.daySchedule
 
 import java.awt.Desktop
 import java.net.URI

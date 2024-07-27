@@ -3,11 +3,11 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import java.awt.Dimension
-import io.kalistratov.mp.dayshedule.App
+import io.kalistratov.mp.daySchedule.App
 
 fun main() = application {
     Window(
-        title = "MPDayShedule",
+        title = "MPDaySchedule",
         state = rememberWindowState(width = 800.dp, height = 600.dp),
         onCloseRequest = ::exitApplication,
     ) {

@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule.theme
+package io.kalistratov.mp.daySchedule.theme
 
 import android.app.Activity
 import androidx.compose.runtime.Composable

@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule
+package io.kalistratov.mp.daySchedule
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Text

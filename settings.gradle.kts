@@ -1,4 +1,4 @@
-rootProject.name = "MPDayShedule"
+rootProject.name = "MPDaySchedule"
 include(":composeApp")
 
 pluginManagement {

@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule
+package io.kalistratov.mp.daySchedule
 
 import kotlinx.browser.window
 

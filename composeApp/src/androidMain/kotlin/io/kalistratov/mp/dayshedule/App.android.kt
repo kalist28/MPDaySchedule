@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule
+package io.kalistratov.mp.daySchedule
 
 import android.app.Application
 import android.content.Intent
@@ -41,6 +41,6 @@ internal actual fun openUrl(url: String?) {
 
 @Preview
 @Composable
-fun a() {
-    io.kalistdev.mp.dayschedule.DayScheduleLayout()
+fun AppPreview() {
+    App()
 }

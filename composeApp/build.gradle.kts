@@ -99,14 +99,14 @@ kotlin {
 }
 
 android {
-    namespace = "io.kalistratov.mp.dayshedule"
+    namespace = "io.kalistratov.mp.daySchedule"
     compileSdk = 34
 
     defaultConfig {
         minSdk = 24
         targetSdk = 34
 
-        applicationId = "io.kalistratov.mp.dayshedule.androidApp"
+        applicationId = "io.kalistratov.mp.daySchedule.androidApp"
         versionCode = 1
         versionName = "1.0.0"
 
@@ -143,7 +143,7 @@ compose.desktop {
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "io.kalistratov.mp.dayshedule.desktopApp"
+            packageName = "io.kalistratov.mp.daySchedule.desktopApp"
             packageVersion = "1.0.0"
         }
     }

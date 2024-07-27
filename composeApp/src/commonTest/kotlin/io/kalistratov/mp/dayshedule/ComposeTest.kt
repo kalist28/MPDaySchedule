@@ -1,4 +1,4 @@
-package io.kalistratov.mp.dayshedule
+package io.kalistratov.mp.daySchedule
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Button
