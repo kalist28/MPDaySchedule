@@ -1,7 +1,8 @@
 # Day Schedule Compose Multiplatform
 
-[![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.6.10-blue)](https://github.com/JetBrains/compose-multiplatform)
+[![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.6.11-blue)](https://github.com/JetBrains/compose-multiplatform)
 [![kotlin-version](https://img.shields.io/badge/kotlin-2.0.0-blue)](https://github.com/JetBrains/kotlin)
+[![Maven Central](https://img.shields.io/badge/alpha-0.0.1-blue)](https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/)
 
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
@@ -23,6 +24,8 @@ The Kotlin Multiplatform library for the [Compose Multiplatform](https://github.
 | Week schedule              | Soon  |
 
 # Setup
+
+[![Maven Central](https://img.shields.io/badge/alpha-0.0.1-blue)](https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/)
 
 In Android project: 
 
