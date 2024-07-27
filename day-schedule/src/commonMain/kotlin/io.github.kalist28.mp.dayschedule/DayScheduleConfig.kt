@@ -1,4 +1,4 @@
-package io.kalistdev.mp.dayschedule
+package io.github.kalist28.mp.dayschedule
 
 import androidx.compose.ui.unit.Dp
 

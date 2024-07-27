@@ -7,9 +7,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import io.kalistdev.mp.dayschedule.DayScheduleLayout
-import io.kalistdev.mp.dayschedule.Event
-import io.kalistdev.mp.dayschedule.EventContainer
+import io.github.kalist28.mp.dayschedule.DayScheduleLayout
+import io.github.kalist28.mp.dayschedule.Event
+import io.github.kalist28.mp.dayschedule.EventContainer
 import kotlinx.datetime.LocalTime
 
 @Composable

@@ -1,4 +1,4 @@
-package io.kalistdev.mp.dayschedule
+package io.github.kalist28.mp.dayschedule
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -36,7 +36,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 import kotlin.jvm.JvmInline
 import kotlin.math.roundToInt
 import kotlin.time.Duration.Companion.seconds
-import io.kalistdev.mp.dayschedule.Event as EventModel
+import io.github.kalist28.mp.dayschedule.Event as EventModel
 
 @Immutable
 object DayScheduleDefaults {
