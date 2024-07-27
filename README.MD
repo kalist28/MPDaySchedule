@@ -73,3 +73,7 @@ DayScheduleLayout(
     }
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=kalist28/MPDaySchedule&type=Date)](https://star-history.com/#kalist28/MPDaySchedule&Date)
