@@ -11,7 +11,7 @@
 
 The Kotlin Multiplatform library for the [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform).
 
-![image](https://github.com/kalist28/MPDaySchedule/blob/main/example/screen_1.png?raw=true)
+![image](./example/screen_1.png =250x)
 
 ## Feature map
 | Feature                    | State |
