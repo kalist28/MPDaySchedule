@@ -1,34 +1,23 @@
-# Compose Multiplatform Application
+# Day Schedule Compose Multiplatform
 
-## Before running!
- - check your system with [KDoctor](https://github.com/Kotlin/kdoctor)
- - install JDK 17 or higher on your machine
- - add `local.properties` file to the project root and set a path to Android SDK there
+[![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.6.10-blue)](https://github.com/JetBrains/compose-multiplatform)
+[![kotlin-version](https://img.shields.io/badge/kotlin-2.0.0-blue)](https://github.com/JetBrains/kotlin)
 
-### Android
-To run the application on android device/emulator:  
- - open project in Android Studio and run imported android run configuration
+![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
+![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
+![badge-JVM](https://img.shields.io/badge/Platform-JVM-orange)
+![badge-macOS](https://img.shields.io/badge/Platform-macOS-purple)
+![badge-web](https://img.shields.io/badge/Platform-Web-blue)
 
-To build the application bundle:
- - run `./gradlew :composeApp:assembleDebug`
- - find `.apk` file in `composeApp/build/outputs/apk/debug/composeApp-debug.apk`
-Run android simulator UI tests: `./gradlew :composeApp:pixel5Check`
+The Kotlin Multiplatform library for the [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform).
 
-### Desktop
-Run the desktop application: `./gradlew :composeApp:run`
-Run desktop UI tests: `./gradlew :composeApp:jvmTest`
+## Feature map
+| Feature                    | State |
+|----------------------------|:-----:|
+| Base schedule              |   ✅   |
+| Customization              |   ✅   |
+| Several events on one line | Soon  |
+| Layout strategy            | Soon  |
+| Week schedule              | Soon  |
 
-### iOS
-To run the application on iPhone device/simulator:
- - Open `iosApp/iosApp.xcproject` in Xcode and run standard configuration
- - Or use [Kotlin Multiplatform Mobile plugin](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform-mobile) for Android Studio
-Run iOS simulator UI tests: `./gradlew :composeApp:iosSimulatorArm64Test`
-
-### JS Browser (Experimental)
-Run the browser application: `./gradlew :composeApp:jsBrowserDevelopmentRun --continue`
-Run browser UI tests: `./gradlew :composeApp:jsBrowserTest`
-
-### Wasm Browser (Alpha)
-Run the browser application: `./gradlew :composeApp:wasmJsBrowserDevelopmentRun --continue`
-Run browser UI tests: `./gradlew :composeApp:wasmJsBrowserTest`
 
