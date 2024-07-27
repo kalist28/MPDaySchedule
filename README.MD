@@ -2,7 +2,7 @@
 
 [![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.6.11-blue)](https://github.com/JetBrains/compose-multiplatform)
 [![kotlin-version](https://img.shields.io/badge/kotlin-2.0.0-blue)](https://github.com/JetBrains/kotlin)
-[![Maven Central](https://img.shields.io/badge/Maven Central-0.0.1-blue)](https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/)
+[![Maven Central](https://img.shields.io/badge/dynamic/xml.svg?label=Maven%20Central&color=blue&url=https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/maven-metadata.xml&query=(//metadata/versioning/versions/version)[not(contains(text(),%27-%27))][last()])](https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/)
 
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
@@ -25,7 +25,7 @@ The Kotlin Multiplatform library for the [Compose Multiplatform](https://github.
 
 # Setup
 
-[![Maven Central](https://img.shields.io/badge/Maven Central-0.0.1-blue)](https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/)
+[![Maven Central](https://img.shields.io/badge/dynamic/xml.svg?label=Maven%20Central&color=blue&url=https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/maven-metadata.xml&query=(//metadata/versioning/versions/version)[not(contains(text(),%27-%27))][last()])](https://repo1.maven.org/maven2/io/github/kalist28/dayschedule/)
 
 In Android project: 
 
