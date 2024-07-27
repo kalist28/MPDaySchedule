@@ -24,6 +24,22 @@ The Kotlin Multiplatform library for the [Compose Multiplatform](https://github.
 
 # Setup
 
+In Android project: 
+
+```groovy
+dependencies {
+  implementation 'io.github.kalist28:dayschedule:alpha-0.0.1'
+}
+```
+
+In Kotlin Multiplatform project:
+
+```groovy
+commonMain.dependencies {
+  implementation("io.github.kalist28:dayschedule:alpha-0.0.1")
+}
+```
+
 ```kotlin
 val events = listOf(
     Event(
