@@ -9,7 +9,7 @@ plugins {
     alias(libs.plugins.multiplatform)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.compose)
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlinx.serialization)
 }
 
@@ -21,15 +21,6 @@ kotlin {
                     jvmTarget.set(JvmTarget.JVM_1_8)
                     freeCompilerArgs.add("-Xjdk-release=${JavaVersion.VERSION_1_8}")
                 }
-            }
-        }
-        //https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-test.html
-        @OptIn(ExperimentalKotlinGradlePluginApi::class)
-        instrumentedTestVariant {
-            sourceSetTree.set(KotlinSourceSetTree.test)
-            dependencies {
-                debugImplementation(libs.androidx.testManifest)
-                implementation(libs.androidx.junit4)
             }
         }
     }
